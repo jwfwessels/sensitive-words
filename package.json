@@ -7,7 +7,7 @@
     "dev": "watch 'yarn run build' src",
     "test": "jest",
     "test:watch": "yarn test -- --watch", 
-    "build": "babel src -d build"
+    "build": "babel src -d build",
     "prepublish": "yarn build"
   },
   "babel": {
